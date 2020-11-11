@@ -6,8 +6,43 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.container {
+  background-color:#bcbcbc;
+  max-width: 100%;
+  overflow: hidden;
+}
+.App {
+  background-color:#bcbcbc;
+  min-height: 100vh
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.fa-heart {
+  color: red;
+}
+
+.fas, .far {
+  padding: 5px;
+}
+ .fas:hover, .far:hover {
+  transform: translate(1px, 1px);
+  filter: drop-shadow(1px 1px 4px rgb(53, 53, 53));
+} 
+.fas:active, .far:active {
+  font-weight: 900;
+}
+
+.btn {
+  border-radius: 0.35rem;
+  width: 7rem;
+  transform-origin: center;
+}
+.list-group-item {
+  background-color: #eaeaea;
+}
+a {
+  font-weight: 400;
 }
